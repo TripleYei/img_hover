@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background: linear-gradient(#77AF9C, #285943);
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/image.PNG");
+    background-size: cover;
+}
+
+#gift-img-blog:hover {
+    background-image: url("images/blog.PNG");
+}
+
+#gift-img-github:hover {
+    background-image: url("images/github.PNG");
+}
